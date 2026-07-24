@@ -1,0 +1,19 @@
+*,::before,::after{
+    box-sizing: border-box;
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    height: 950px;
+    width: 950px;
+    
+}
+.square {
+    width:6.25%;
+    height: 6.25%;
+    background-color: blue ;
+    border: solid 2px;
+}
+.square.ishovered{
+    background-color: bisque;
+}
